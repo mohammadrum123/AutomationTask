@@ -27,19 +27,6 @@ namespace Applitools.POM
         [FindsBy(How = How.Id, Using = "google-signin")]
         public IWebElement google;
 
-        [FindsBy(How = How.Id, Using = "inner-form-container")]
-        public IWebElement github;
-
-        [FindsBy(How = How.Id, Using = "register-link-container")]
-        public IWebElement signup;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id=\"inner - form - container\"]/form/div/div[2]/a")]
-        public IWebElement forgot;
-
-        [FindsBy(How = How.CssSelector, Using = "body > div > div.sidebar-inner > a")] 
-        public IWebElement learnmorebtn;
-
-
     }
 
 
